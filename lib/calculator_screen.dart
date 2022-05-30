@@ -46,6 +46,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Image.network(
+            'https://media.wired.com/photos/5c83066025da7204699767c7/16:9/w_2400,h_1350,c_limit/calculator-1470.jpg',
+            width: MediaQuery.of(context).size.width / 2,
+          ),
           Row(
             children: [
               Flexible(

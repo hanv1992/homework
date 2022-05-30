@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:homework/welcome_screen.dart';
 
 import 'calculator_screen.dart';
+import 'flex_demo_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.green,
       ),
-      home: const CalculatorScreen(),
+      home: const FlexDemoScreen(),
     );
   }
 }
@@ -72,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: 'Plus 1',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
