@@ -3,6 +3,8 @@ import 'package:homework/welcome_screen.dart';
 
 import 'calculator_screen.dart';
 import 'flex_demo_screen.dart';
+import 'home_screen.dart';
+import 'listview_demo_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +31,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.green,
       ),
-      home: const FlexDemoScreen(),
+      // home: ListviewDemoScreen(),
+      home: HomeScreen(),
     );
   }
 }
